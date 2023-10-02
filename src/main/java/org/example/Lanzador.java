@@ -1,7 +1,8 @@
 package org.example;
 
 public class Lanzador {
-    public static void main(String[] args){
+
+    public void lanzador(){
         //Crea una cuenta con un saldo inicial de 10.000€
         Cuenta cuenta = new Cuenta(10000);
         //Arreglo de hilos de clientes
