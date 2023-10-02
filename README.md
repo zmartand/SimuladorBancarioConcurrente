@@ -14,6 +14,6 @@ Tu solución debe hacer uso de la concurrencia y el paralelismo para manejar las
 
 El programa debe contener al menos las siguientes clases:
 
-Cuenta: Clase que mantiene el estado de la cuenta y proporciona métodos sincronizados para depositar y retirar fondos. HiloCliente: Clase que implementa la interfaz Runnable y representa un proceso individual que realiza transacciones en la cuenta. Lanzador: Clase que lanza todos los hilos de los clientes y verifica que la simulación ha funcionado correctamente al final. Asegúrate de probar a fondo tu programa con diferentes conjuntos de datos de prueba para verificar su robustez y corrección.
+org.example.Cuenta: Clase que mantiene el estado de la cuenta y proporciona métodos sincronizados para depositar y retirar fondos. HiloCliente: Clase que implementa la interfaz Runnable y representa un proceso individual que realiza transacciones en la cuenta. Lanzador: Clase que lanza todos los hilos de los clientes y verifica que la simulación ha funcionado correctamente al final. Asegúrate de probar a fondo tu programa con diferentes conjuntos de datos de prueba para verificar su robustez y corrección.
 
 Tu código fuente debe estar bien estructurado, limpio y bien comentado. Asegúrate de seguir las mejores prácticas de la programación orientada a objetos y la programación concurrente en Java.
