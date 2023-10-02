@@ -29,8 +29,8 @@ public class Cuenta {
         System.out.println("Saldo actual: " + saldo + "€");
     }
     //Método sincronizado para consultar el saldo actual de la cuenta
-    public synchronized void getSaldo() {
-        System.out.println("Saldo actual: " + saldo + "€");
+    public synchronized int getSaldo() {
+        return saldo;
     }
 
 }
