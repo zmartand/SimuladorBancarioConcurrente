@@ -17,3 +17,24 @@ El programa debe contener al menos las siguientes clases:
 org.example.Cuenta: Clase que mantiene el estado de la cuenta y proporciona métodos sincronizados para depositar y retirar fondos. HiloCliente: Clase que implementa la interfaz Runnable y representa un proceso individual que realiza transacciones en la cuenta. Lanzador: Clase que lanza todos los hilos de los clientes y verifica que la simulación ha funcionado correctamente al final. Asegúrate de probar a fondo tu programa con diferentes conjuntos de datos de prueba para verificar su robustez y corrección.
 
 Tu código fuente debe estar bien estructurado, limpio y bien comentado. Asegúrate de seguir las mejores prácticas de la programación orientada a objetos y la programación concurrente en Java.
+
+### Rúbrica para evaluar el Sistema FinTech de Prueba de Estrés Bancaria
+
+1. Correctitud del Programa (40 puntos)
+
+El programa ejecuta correctamente las operaciones de depósito y retiro en la cuenta: 20 puntos
+El programa asegura que el saldo final de la cuenta es el esperado después de todas las transacciones: 10 puntos
+El programa maneja correctamente las condiciones de carrera y otros problemas de concurrencia: 10 puntos
+2. Uso de la Concurrencia y el Paralelismo (30 puntos)
+
+El programa utiliza adecuadamente los hilos para ejecutar transacciones en paralelo: 10 puntos
+El programa sincroniza adecuadamente los métodos y bloques críticos para evitar problemas de concurrencia: 10 puntos
+El programa utiliza adecuadamente los constructores de procesos y otros mecanismos de concurrencia en Java: 10 puntos
+3. Estructura y Estilo del Código (20 puntos)
+
+El código está bien organizado y sigue las convenciones de codificación de Java: 10 puntos
+El código está bien comentado y los comentarios son útiles y descriptivos: 10 puntos
+4. Pruebas y Robustez (10 puntos)
+
+El programa ha sido probado con diferentes conjuntos de datos y ha demostrado su robustez: 10 puntos
+Calificación total: 100 puntos
